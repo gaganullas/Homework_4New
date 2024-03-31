@@ -105,7 +105,7 @@ def question8():
     answers["(d) Row 4"] = '-'
 
     # float between 0 and 1
-    answers["(d) Training error rate"] = 0.38
+    answers["(d) Training error rate"] = 0.25
 
     return answers
 
@@ -175,7 +175,7 @@ def question10():
     answers["(e) A independent of B given class +?"] = "no"
 
     # type: explanatory string
-    answers["(e) A and B conditionally independent given class +, explain"] = "P(A=1|B=1+) is not equal to P(A=1|+)"
+    answers["(e) A and B conditionally independent given class +, explain"] = "no , P(A=1|B=1+) is not equal to P(A=1|+)"
   
     return answers
 # --------------------------------------------------------
